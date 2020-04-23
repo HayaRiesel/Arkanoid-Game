@@ -1,0 +1,100 @@
+
+START_LEVEL
+level_name:Level 3
+ball_velocities:0,13 0,13 0,13
+background:color(white)
+paddle_speed:14
+paddle_width:250
+block_definitions:definitions/my_sandart_block_definition.txt
+blocks_start_x:30
+blocks_start_y:130
+row_height:30
+num_blocks:95
+START_BLOCKS
+
+---ggghhhhgghhgghhgggg
+---ghhyyyyyyyyyyyyyyyg
+---gyyyygggggggggggggg
+-
+-
+---ghhyyyyyyyyyyyyyyyg
+---ggghhhhgghhgghhgggg
+
+
+END_BLOCKS
+END_LEVEL
+
+START_LEVEL
+level_name:Level 2
+ball_velocities:-5,10 0,11 5,10
+background:image(background_images/6baloons.png)
+paddle_speed:14
+paddle_width:150
+block_definitions:definitions/my_sandart_block_definition.txt
+blocks_start_x:30
+blocks_start_y:100
+row_height:40
+num_blocks:35
+START_BLOCKS
+-aaaaaaa
+-bbbbbbb
+-ddddddd
+-ccccccc
+-eeeeeee
+
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+# Level 2
+
+START_LEVEL
+level_name:Level 1
+ball_velocities:6,6 7,7 8,8 9,9 10,10 11,11 12,12 13,13 14,14 15,15 16,16 -6,6 -7,7 -8,8 -9,9 -10,10 -11,11 -12,12 -13,13 -14,14 -15,15 -16,16
+background:image(background_images/bluesky.jpg)
+paddle_speed:14
+paddle_width:400
+block_definitions:definitions/my_sandart_block_definition.txt
+blocks_start_x:33
+blocks_start_y:80
+row_height:15
+num_blocks:532
+START_BLOCKS
+________;;;;;;;;;;;;;;;
+____.;;;;;;;;;;;;;;;;;;;,.
+__.;;;;;;;;;;;;;;;;;;;;;;;;,
+.;;;;;;;;;;;;;;;;;;;;;;;;;;;;.
+;;;;;@;;;;;;;;;;;;;;;;;;;;;;;;' .............
+;;;;@@;;;;;;;;;;;;;;;;;;;;;;;;'.................
+;;;;@@;;;;;;;;;;;;;;;;;;;;;;;;'..................
+_;;;;@;;;;;;;;;;;;;;;@;;;;;;;'....................
+_`;;;;;;;;;;;;;;;;;;;@@;;;;;'..................;..
+___`;;;;;;;;;;;;;;;;@@;;;;'....................;;.
+_____`;;;;;;;;;;;;;@;;;;'...;.................;;..
+________`;;;;;;;;;;;;'___...;;...............;...
+___________`;;;;;;'________...;;...............
+______________;;______________..;.............
+______________`__________________...........
+_____________`______________________......
+____________`_________________________..
+___________`__________________________.
+__________`___________________________.
+_________`___________________________.
+________`____________________________.
+_______ `____________________________..
+_________`
+__________`
+
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+# default values for blocks
+default height:10 width:35 stroke:color(black) hit_points:1
+
+# block definitions
+bdef symbol:@ fill:color(yellow) width:15 height:15
+bdef symbol:; fill:color(green) width:15 height:15
+bdef symbol:. fill:color(yellow) width:15 height:15
+bdef symbol:` fill:color(red) width:15 height:15
+
+
+
+
+bdef symbol:h fill:color(green) fill:image(block_images/blueballoon.jpg)
+bdef symbol:g fill:color(green) fill:image(block_images/greenballoon.jpg)
+bdef symbol:y fill:color(green) fill:image(block_images/yellowballoon.jpg)
+
+bdef symbol:a fill:color(yellow) fill-2:color(red) width:100 height:40 hit_points:2
+bdef symbol:b fill:color(green) fill-2:color(orange) width:100 height:40 hit_points:2
+bdef symbol:c fill:color(blue) fill-2:color(yellow) width:100 height:40 hit_points:2
+bdef symbol:d fill:color(red) fill-2:color(green) width:100 height:40 hit_points:2
+bdef symbol:e fill:color(orange) width:100 height:40
+bdef symbol:! fill:color(orange) width:15 height:15
+
+
+
+
+
+
+
+# spacers definitions
+sdef symbol:1  width:15
+sdef symbol:-  width:15
+sdef symbol:_  width:15
+
